@@ -52,14 +52,13 @@ def checkWin(word, guesses):
 
 
 def main():
-    running = True
     win = False
     attempts = 6
     word = randomizeWord()
     correctGuesses = []
     wrongGuesses = []
     progress = updateProgress(word, "`")
-    while running:
+    while True:
         print("H A N G M A N")
         print(progress, f"({attempts})")
         print("x :", listToStringWithSpaces(wrongGuesses))
