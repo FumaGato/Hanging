@@ -1,6 +1,11 @@
 import random
 import os
 
+"""
+    TO DO:
+    - Do something when input is int
+"""
+
 
 def clear_terminal():
     os.system('cls' if os.name == 'nt' else 'clear')
