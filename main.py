@@ -22,7 +22,32 @@ def randomizeWord():
         "panda",
         "dolphin",
         "penguin",
-        "eagle"
+        "eagle",
+        "wolf",
+        "fox",
+        "bear",
+        "rabbit",
+        "deer",
+        "monkey",
+        "cheetah",
+        "leopard",
+        "hippopotamus",
+        "rhinoceros",
+        "crocodile",
+        "ostrich",
+        "peacock",
+        "koala",
+        "otter",
+        "squirrel",
+        "chimpanzee",
+        "gorilla",
+        "camel",
+        "buffalo",
+        "moose",
+        "antelope",
+        "jaguar",
+        "parrot",
+        "flamingo"
     ]
     word = random.choice(words)
     return word
